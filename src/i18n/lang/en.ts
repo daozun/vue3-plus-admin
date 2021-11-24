@@ -17,6 +17,7 @@ export default {
 		tools: 'tools',
 		layoutLinkView: 'LinkView',
 		layoutIfameView: 'IfameView',
+		tab: 'Tab'
 	},
 	staticRoutes: {
 		signIn: 'signIn',

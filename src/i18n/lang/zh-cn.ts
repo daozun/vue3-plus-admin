@@ -16,6 +16,7 @@ export default {
 		personal: '个人中心',
 		layoutLinkView: '外链',
 		layoutIfameView: '内嵌 iframe',
+		tab: 'Tab'
 	},
 	staticRoutes: {
 		signIn: '登录',

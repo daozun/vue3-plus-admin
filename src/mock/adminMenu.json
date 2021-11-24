@@ -349,6 +349,21 @@
 				"auth": ["admin"],
 				"icon": "iconfont icon-neiqianshujuchucun"
 			}
-		}
+		},
+		{
+			"path": "/tab",
+			"name": "tab",
+			"component": "@/views/tab/index.vue",
+			"meta": {
+				"title": "message.router.tab",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"auth": ["admin"],
+				"icon": "iconfont icon-neiqianshujuchucun"
+			}
+		}	
 	]
 }

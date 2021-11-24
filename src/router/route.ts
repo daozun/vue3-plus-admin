@@ -114,7 +114,7 @@ export const dynamicRoutes: Array<RouteRecordRaw> = [
 				component: () => import('@/layout/routerView/iframes.vue'),
 				meta: {
 					title: 'message.router.layoutIfameView',
-					isLink: 'https://v3.cn.vuejs.org/guide/introduction.html',
+					isLink: '',
 					isHide: false,
 					isKeepAlive: false,
 					isAffix: true,
@@ -123,6 +123,21 @@ export const dynamicRoutes: Array<RouteRecordRaw> = [
 					icon: 'iconfont icon-neiqianshujuchucun',
 				},
 			},
+			{
+				path: '/tab',
+				name: 'tab',
+				component: () => import('@/views/tab/index.vue'),
+				meta: {
+					title: 'message.router.tab',
+					isLink: '',
+					isHide: false,
+					isKeepAlive: true,
+					isAffix: true,
+					isIframe: false,
+					auth: ['admin'],
+					icon: 'iconfont icon-neiqianshujuchucun',
+				},
+			},			
 		],
 	},
 ];
